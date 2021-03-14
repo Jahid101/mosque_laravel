@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\About;
+use App\Http\Controllers\Backend\Donate;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +25,5 @@ Route::get('/admin', function () {
 // });
 
 Route::get('/about',[About::class,'about'])->name('about');
+
+Route::get('/donate',[Donate::class,'donate'])->name('donate');

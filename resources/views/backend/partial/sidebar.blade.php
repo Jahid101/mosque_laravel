@@ -8,7 +8,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href={{Route('donate')}}>
               <span data-feather="file"></span>
               <button class="btn btn-success">Donate</button>
             </a>

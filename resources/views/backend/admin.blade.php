@@ -28,6 +28,9 @@
 
                 @yield('about')
 
+                @yield('donate')
+
+
 
 
             </main>
