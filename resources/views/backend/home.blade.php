@@ -39,7 +39,6 @@
     @include('backend.partial.script')
 
 
-
 </body>
 
 </html>
