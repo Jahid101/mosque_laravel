@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Backend\About;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/admin', function () {
     return view('backend.admin');
 });
+
+// Route::get('/about', function () {
+//     return view('backend.contents.about');
+// });
+
+Route::get('/about',[About::class,'about'])->name('about');

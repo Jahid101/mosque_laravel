@@ -32,9 +32,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href={{Route('about')}}>
               <span data-feather="layers"></span>
-              <button class="btn btn-success">About Mosque</button>
+              <button class="btn btn-success">About</button>
 
             </a>
           </li>

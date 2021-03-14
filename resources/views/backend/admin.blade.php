@@ -26,7 +26,7 @@
 
 
 
-                @yield('content')
+                @yield('about')
 
 
 
