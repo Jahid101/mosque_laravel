@@ -1,6 +1,6 @@
-@extends('backend.admin')
+@extends('backend.home')
 
-@section('donate')
+@section('content')
 
 <h1>Donate</h1>
 

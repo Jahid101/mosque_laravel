@@ -22,20 +22,19 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="users"></span>
-              <button class="btn btn-success">Members sign in</button>
+              <button class="btn btn-success">Member</button>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="bar-chart-2"></span>
-              <button class="btn btn-success">Donor sign in</button>
+              <button class="btn btn-success">Donor</button>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href={{Route('about')}}>
               <span data-feather="layers"></span>
               <button class="btn btn-success">About</button>
-
             </a>
           </li>
         </ul>

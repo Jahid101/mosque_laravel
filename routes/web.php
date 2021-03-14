@@ -16,13 +16,18 @@ use App\Http\Controllers\Backend\Donate;
 |
 */
 
-Route::get('/admin', function () {
-    return view('backend.admin');
+Route::get('/home', function () {
+    return view('backend.home');
 });
 
-// Route::get('/about', function () {
-//     return view('backend.contents.about');
+Route::get('/', function () {
+    return view('backend.home');
+});
+
+// Route::get('/', function () {
+//     return view('backend.');
 // });
+
 
 Route::get('/about',[About::class,'about'])->name('about');
 
