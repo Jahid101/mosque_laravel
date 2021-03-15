@@ -25,12 +25,12 @@
               <button class="btn btn-success">Announcement</button>
             </a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href=>
               <span data-feather="users"></span>
               <button class="btn w-50 btn-success">Committee Member</button>
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" href= {{Route('fund')}}>
               <span data-feather="bar-chart-2"></span>
