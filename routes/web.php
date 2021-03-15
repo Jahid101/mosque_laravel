@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\About;
 use App\Http\Controllers\Backend\Donate;
+use App\Http\Controllers\Backend\Home;
 
 
 /*
@@ -16,18 +17,19 @@ use App\Http\Controllers\Backend\Donate;
 |
 */
 
-Route::get('/home', function () {
-    return view('backend.home');
-});
+// Route::get('/home', function () {
+//     return view('backend.home');
+// });
 
-Route::get('/', function () {
-    return view('backend.home');
-});
+// Route::get('/', function () {
+//     return view('backend.home');
+// });
 
 // Route::get('/', function () {
 //     return view('backend.');
 // });
 
+Route::get('/home',[Home::class,'home'])->name('home');
 
 Route::get('/about',[About::class,'about'])->name('about');
 

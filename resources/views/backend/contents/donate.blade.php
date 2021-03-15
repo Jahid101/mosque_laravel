@@ -4,6 +4,6 @@
 
 <h1>Donate</h1>
 
-<img class="ml-5 w-50" src="https://mycfh.info/wp-content/uploads/2020/07/donate-1.jpg" alt="">
+<img class=" w-50" src="https://mycfh.info/wp-content/uploads/2020/07/donate-1.jpg" alt="">
 
 @endsection
