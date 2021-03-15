@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\About;
 use App\Http\Controllers\Backend\Donate;
 use App\Http\Controllers\Backend\Home;
+use App\Http\Controllers\Backend\Event;
 
 
 /*
@@ -34,3 +35,5 @@ Route::get('/home',[Home::class,'home'])->name('home');
 Route::get('/about',[About::class,'about'])->name('about');
 
 Route::get('/donate',[Donate::class,'donate'])->name('donate');
+
+Route::get('/event',[Event::class,'event'])->name('event');

@@ -5,10 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class Event extends Controller
+class Food extends Controller
 {
-    public function event()
-    {
-        return view('backend.contents.event');
-    }
+    //
 }

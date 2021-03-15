@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h3>Events are coming soon...</h3>
+<h1>Fund is null</h1>
 
 @endsection
