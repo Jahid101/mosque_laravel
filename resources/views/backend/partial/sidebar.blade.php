@@ -2,7 +2,7 @@
       <div class="position-sticky pt-3 bg-success mt-3 mb-5 rounded">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href={{Route('admin')}}>
               <span data-feather="home"></span>
               <button class="btn btn-success">Admin</button>
             </a>
@@ -20,7 +20,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=>
+            <a class="nav-link" href={{Route('announcement')}}>
               <span data-feather="shopping-cart"></span>
               <button class="btn btn-success">Announcement</button>
             </a>
@@ -32,7 +32,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=>
+            <a class="nav-link" href= {{Route('fund')}}>
               <span data-feather="bar-chart-2"></span>
               <button class="btn btn-success">Fund</button>
             </a>
@@ -50,7 +50,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=>
+            <a class="nav-link" href= {{Route('food')}}>
               <span data-feather="bar-chart-2"></span>
               <button class="btn btn-success">Food</button>
             </a>
