@@ -29,7 +29,7 @@
                 <div class="m-3">
                     @yield('content')
                 </div>
-                
+
 
 
                 {{-- @include('backend.partial.sidebarright') --}}
