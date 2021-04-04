@@ -22,15 +22,29 @@
                     <div class="modal-body">
 
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input name="email" placeholder="Your email" type="email" class="form-control"
+                            <label for="exampleInputEmail1" class="form-label">Event Name</label>
+                            <input name="name" placeholder="Event Name" type="text" class="form-control"
                                 id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                            <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input name="password" placeholder="password" type="password" class="form-control"
-                                id="exampleInputPassword1" required>
+                            <label for="exampleInputPassword1" class="form-label">Event Details</label>
+                            <textarea name="eventDetails" placeholder="Event Details" type="text" class="form-control"
+                                id="exampleInputPassword1" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Date</label>
+                            <input name="eventDate" placeholder="Event Name" type="date" class="form-control"
+                                id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Time</label>
+                            <input name="eventTime" placeholder="Event Name" type="time" class="form-control"
+                                id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Budget</label>
+                            <input name="eventBudget" placeholder="Budget amount" type="number" class="form-control"
+                                id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         </div>
                     </div>
                     <div class="modal-footer">
