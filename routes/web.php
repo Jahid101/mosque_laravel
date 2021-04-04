@@ -13,6 +13,7 @@ use App\Http\Controllers\Backend\FundController;
 use App\Http\Controllers\Backend\TablighiController;
 use App\Http\Controllers\Backend\MaktabController;
 use App\Http\Controllers\Backend\MahfilController;
+use App\Http\Controllers\Backend\CommiteeMemberController;
 
 
 // Route::get('/home', function () {
@@ -45,3 +46,5 @@ Route::get('/maktab',[MaktabController::class,'maktab'])->name('maktab');
 Route::get('/mahfil',[MahfilController::class,'mahfil'])->name('mahfil');
 
 Route::post('/donation',[DonateController::class,'list'])->name('donate.list');
+
+Route::get('/commiteeMember',[CommiteeMemberController::class,'commiteeMember'])->name('commiteeMember');
